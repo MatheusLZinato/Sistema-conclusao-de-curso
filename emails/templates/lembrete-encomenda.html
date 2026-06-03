@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><style>
+body{font-family:Arial,sans-serif;background:#f4f4f4}
+.box{max-width:560px;margin:40px auto;background:#fff;border-radius:12px;overflow:hidden}
+.header{background:#DD6B20;padding:30px;text-align:center;color:#fff}
+.body{padding:30px;color:#333;line-height:1.7}
+.destaque{background:#FFFAF0;border-left:3px solid #DD6B20;padding:12px;margin:16px 0}
+.footer{background:#111;color:#aaa;text-align:center;padding:15px;font-size:.85rem}
+</style></head><body><div class="box">
+<div class="header"><h2>Lembrete de Encomenda ⏰</h2></div>
+<div class="body"><p>Olá, <strong>{{nome_cliente}}</strong>!</p>
+<p>Sua encomenda <strong>#{{pedido_id}}</strong> está chegando:</p>
+<div class="destaque"><strong>Entrega:</strong> {{data_entrega}} às {{hora_entrega}}</div>
+<p>Saldo a pagar na entrega: <strong>{{saldo}}</strong></p></div>
+<div class="footer">{{nome_loja}}</div></div></body></html>

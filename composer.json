@@ -1,0 +1,13 @@
+{
+  "name": "diego-gourmet/v4",
+  "description": "Sistema de Comercialização — Diego Gourmet V4",
+  "require": {
+    "php": ">=8.1",
+    "firebase/php-jwt": "^6.10",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": { "App\\": "backend/" }
+  },
+  "config": { "vendor-dir": "backend/vendor" }
+}

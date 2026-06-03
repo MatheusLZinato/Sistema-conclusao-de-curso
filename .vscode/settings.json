@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.claude": true
+    },
+    "files.associations": {
+        "*.sql": "mysql"
+    },
+    "sql.dialect": "mysql",
+    "mssql.intelliSense.enableIntelliSense": false,
+    "mssql.intelliSense.enableErrorUnderline": false,
+    "[sql]": {
+        "editor.defaultFormatter": null
+    },
+    "sqltools.useNodeRuntime": false,
+    "sqltools.connections": []
+}

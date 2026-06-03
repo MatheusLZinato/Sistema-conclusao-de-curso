@@ -1,0 +1,6 @@
+# Bloqueia acesso direto a pastas sensíveis
+RewriteEngine On
+RewriteRule ^(backend|database|storage|emails)/ - [F,L]
+<FilesMatch "\.(env|lock|log|md|json)$">
+    Require all denied
+</FilesMatch>

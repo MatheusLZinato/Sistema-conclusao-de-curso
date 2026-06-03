@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Iniciar servidor PHP",
+            "type": "shell",
+            "command": "php -S localhost:8080 -t '${workspaceFolder}/public' 2>&1",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "php-server",
+                "pattern": {
+                    "regexp": "^$"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "Development Server",
+                    "endsPattern": "started"
+                }
+            },
+            "presentation": {
+                "reveal": "silent",
+                "panel": "dedicated",
+                "focus": false
+            }
+        }
+    ]
+}
